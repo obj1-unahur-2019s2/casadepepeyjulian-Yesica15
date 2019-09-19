@@ -1,0 +1,19 @@
+import cosas.*
+import casa.*
+import cuentasBancarias.*
+
+describe "test de casa desafio"{
+	fixture {
+		cuentaCorriente.depositar(80000)
+		casaDePepeYJulian.asignarCuenta(cuentaCorriente)
+		casaDePepeYJulian.comprar(cama)
+		casaDePepeYJulian.comprar(tiraDeAsado)
+		casaDePepeYJulian.comprar(paqueteDeFideos)
+		
+	}
+	
+	
+	
+	
+	
+}
